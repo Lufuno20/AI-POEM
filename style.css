@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Teko:wght@300..700&display=swap");
+
 * {
   padding: 0;
   border: none;
@@ -7,10 +9,68 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: coral;
-  text-align: center;
-  font-size: 18px;
+  background-color: peachpuff;
+}
+main {
+}
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: darksalmon;
+  font-family: "Teko", serif;
+  text-shadow: 1px 3px 3px rgba(34, 36, 36, 0.4);
 }
 footer {
   font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+}
+a {
+  color: slategrey;
+  font-weight: 500;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+form {
+  padding: 36px;
+  background-color: lightsalmon;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.interaction {
+  padding: 18px;
+  border: 1px solid rgba(37, 37, 71, 0.5);
+  width: 88%;
+  font-size: 17px;
+  border-radius: 25px;
+  line-height: 20px;
+  color: lightslategray;
+}
+.btnsubmit {
+  margin-left: 10px;
+  background-color: rgb(207, 133, 108);
+  border-radius: 25px;
+  color: darkslategray;
+  width: 170px;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 2px 0px 2px rgba(34, 36, 36, 0.4);
+}
+.poem {
+  font-size: 16px;
+  background-color: lightsalmon;
+  padding: 20px;
+  line-height: 2;
+  font-weight: 700;
+  border-left: 6px solid rgb(207, 133, 108);
+  color: darkslategray;
+  border-radius: 5px;
+  font-family: "Cedarville Cursive", serif;
 }
