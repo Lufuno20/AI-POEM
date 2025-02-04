@@ -11,8 +11,7 @@
 body {
   background-color: peachpuff;
 }
-main {
-}
+
 h1 {
   font-weight: 700;
   font-size: 35px;
@@ -38,11 +37,7 @@ header {
   margin-bottom: 30px;
 }
 form {
-  padding: 36px;
-  background-color: lightsalmon;
-  border-radius: 15px;
   display: flex;
-  margin-bottom: 40px;
 }
 .interaction {
   padding: 18px;
@@ -73,4 +68,33 @@ form {
   color: darkslategray;
   border-radius: 5px;
   font-family: "Cedarville Cursive", serif;
+}
+.form-container {
+  padding: 15px 20px;
+  background-color: lightsalmon;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 7px 0px 8px rgba(34, 36, 36, 0.4);
+}
+.hidden {
+  display: none;
+}
+.hint {
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.blink {
+  animation: blink-animation 200ms steps(5, start) infinite;
 }
