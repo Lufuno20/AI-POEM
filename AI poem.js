@@ -13,7 +13,7 @@ function generatePoems(event) {
   let APIkey = "b08b4acf0t6108d50e30fa0b396od66f";
   let prompt = `User instructions are: Generate information and instructions about ${interactionInput.value}`;
   let context =
-    "you are a AI that provides information for users and instructions to use such as recipes. Your mission is to generate information and instructions using basic HTML  by following the user instructions. ";
+    "you are a general information provider that provides information for users and instructions to use such as recipes. Your mission is to generate information and instructions using basic HTML  by following the user instructions. ";
 
   let APIurl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${APIkey}`;
 

@@ -87,14 +87,14 @@ form {
 }
 @keyframes blink-animation {
   to {
-    visibility: hidden;
+    opacity: 0.5;
   }
 }
 @-webkit-keyframes blink-animation {
   to {
-    visibility: hidden;
+    opacity: 0.5;
   }
 }
 .blink {
-  animation: blink-animation 200ms steps(5, start) infinite;
+  animation: blink-animation 450ms steps(2, start) infinite;
 }
